@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import lockIcon from "../../assets/lock.png";
 import mail from "../../assets/mail.png";
-import pass from "../../assets/Group 2.png";
-import insta from "../../assets/Instagram 1.png";
+import pass from "../../assets/pass.png";
+import insta from "../../assets/insta.png";
 import fb from "../../assets/Group.png";
-import ln from "../../assets/Group (2).png";
-import pt from "../../assets/Group (1).png";
-import fingerPrint from "../../assets/Frame 450.png";
+import ln from "../../assets/ln.png";
+import pt from "../../assets/pt.png";
+import fingerPrint from "../../assets/fing.png";
 
 const Login = ({ setIsAuthenticated }) => {
   const [isLogin, setIsLogin] = useState(true); // Toggle between Login and Register

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import translate from "../../assets/g_translate.png";
-import gp from "../../assets/Group copy.png";
+import gp from "../../assets/gp.png";
 
 const Home = () => {
   const navigate = useNavigate();
