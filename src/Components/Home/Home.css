@@ -1,0 +1,158 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #e0bcf3 0%, #7ee7ee 100%);
+    padding: 20px;
+  }
+  
+  .service-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+  }
+  
+  .service-btn {
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    height: 100.66px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .green {
+    background: linear-gradient(268.31deg, #bfffcc 48.36%, #99ffb6 98.55%);
+  }
+  
+  .yellow {
+    background: linear-gradient(268.31deg, #f2ffbf 48.36%, #ebff99 98.55%);
+  }
+  
+  .chat-btn {
+    background: #ffe5c2;
+    font-family: "Dosis", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60.67px;
+    color: #c84ad3;
+  }
+  
+  .translator-btn {
+    background: #c2f0ff;
+  }
+  
+  .faq-btn {
+    background: #e4caff;
+    font-family: "Dosis", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45.5px;
+    color: #3b5998;
+  }
+  
+  .about-btn {
+    background: #ffc2f2;
+    font-family: "Dosis", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40.45px;
+    color: #c84ad3;
+  }
+  
+  .logout-btn {
+    background: #ffe5c2;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #c84ad3;
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+  
+  .fruit-heading {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37.92px;
+    color: white;
+    text-align: center;
+  }
+  
+  .fruit-heading2 {
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 18.96px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-section {
+    margin-top: 20px;
+  }
+  
+  .service-btn:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+    .service-buttons {
+      grid-template-columns: repeat(1, 150px);
+    }
+  
+    .chat-btn,
+    .faq-btn,
+    .about-btn {
+      font-size: 24px;
+    }
+  
+    .fruit-heading {
+      font-size: 24px;
+    }
+  
+    .fruit-heading2 {
+      font-size: 14px;
+    }
+  
+    .logout-btn {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-btn {
+      height: 80px;
+      width: 120px;
+      font-size: 16px;
+    }
+  
+    .chat-btn {
+      font-size: 20px;
+    }
+  
+    .faq-btn,
+    .about-btn {
+      font-size: 18px;
+    }
+  
+    .fruit-heading {
+      font-size: 20px;
+    }
+  
+    .fruit-heading2 {
+      font-size: 12px;
+    }
+  
+    .logout-btn {
+      font-size: 14px;
+    }
+  }
+  
